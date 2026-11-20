@@ -26,10 +26,13 @@ void setup() {
 void loop() {
     // blink both LEDs on and off alternatively
  digitalWrite(7, HIGH);
-      delay(650);
+        delay(650);
         digitalWrite(7, LOW);
         delay(0);
          digitalWrite(8, HIGH);
         delay(650);
         digitalWrite(8, LOW);
         delay(0);
+  
+
+}
